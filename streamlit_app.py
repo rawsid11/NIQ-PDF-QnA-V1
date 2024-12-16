@@ -121,3 +121,14 @@ if st.button("Clear Chat History"):
     st.session_state.chat_session = None
     st.session_state.uploaded_file = None
     st.rerun()
+    
+st.markdown(
+    """
+    <div style='position: fixed; bottom: 0; left: 0; width: 100%; background-color: #f0f2f6; padding: 10px; text-align: center;'>
+        <p style='font-family: "Arial", sans-serif; font-size: 14px; color: #666666; margin: 0;'>
+            Made with ❤️ by Siddhesh for AB
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
