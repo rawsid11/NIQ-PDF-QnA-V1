@@ -3,7 +3,11 @@ import os
 import time
 import google.generativeai as genai
 import tempfile
-
+import streamlit as st
+import os
+import time
+import google.generativeai as genai
+import tempfile
 # Set page configuration
 st.set_page_config(page_title="Gemini PDF Chat", layout="wide")
 
